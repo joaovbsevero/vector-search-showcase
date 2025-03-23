@@ -104,3 +104,9 @@ These are automatically used by the app at runtime.
 ├── pyproject.toml
 └── requirements.lock
 ```
+
+---
+
+## Comparison table
+
+https://shorturl.at/RCkif
