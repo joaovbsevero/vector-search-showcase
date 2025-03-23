@@ -1,0 +1,17 @@
+[project]
+name = "vector-search-showcase"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit",
+    "pymongo",
+    "qdrant-client",
+    "pinecone[grpc]",
+    "pydantic",
+    "pydantic-settings",
+    "pymilvus[model]",
+    "python-dotenv",
+    "fastembed",
+]

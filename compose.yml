@@ -1,0 +1,10 @@
+services:
+    unified_vector_db:
+        build: .
+        container_name: unified_vector_db
+        ports:
+            - "$VECTOR_SEARCH_APP_STREAMLIT_SERVER_PORT:$VECTOR_SEARCH_APP_STREAMLIT_SERVER_PORT"
+        volumes:
+            - ./:/app
+        env_file:
+            - .env
